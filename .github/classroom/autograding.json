@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "one",
+      "setup": "",
+      "run": "sudo go run main.go",
+      "input": "5",
+      "output": "25",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "two",
+      "setup": "",
+      "run": "sudo go run main.go",
+      "input": "1000",
+      "output": "1000000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "three",
+      "setup": "",
+      "run": "sudo go run main.go",
+      "input": "50",
+      "output": "2500",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
